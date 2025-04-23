@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/qt/qml/cppMIV/">
+    <file alias="Main.qml">C:/Users/lucas/Documents/PFC/cppMIV/Main.qml</file>
+    <file alias="BotaoMudarPagina.qml">C:/Users/lucas/Documents/PFC/cppMIV/BotaoMudarPagina.qml</file>
+    <file alias="HomePage.qml">C:/Users/lucas/Documents/PFC/cppMIV/HomePage.qml</file>
+    <file alias="ReportPage.qml">C:/Users/lucas/Documents/PFC/cppMIV/ReportPage.qml</file>
+    <file alias="ReadingPage.qml">C:/Users/lucas/Documents/PFC/cppMIV/ReadingPage.qml</file>
+    <file alias="DownloadPage.qml">C:/Users/lucas/Documents/PFC/cppMIV/DownloadPage.qml</file>
+    <file alias="CommandPage.qml">C:/Users/lucas/Documents/PFC/cppMIV/CommandPage.qml</file>
+    <file alias="AnalysisPage.qml">C:/Users/lucas/Documents/PFC/cppMIV/AnalysisPage.qml</file>
+    <file alias="functions.js">C:/Users/lucas/Documents/PFC/cppMIV/functions.js</file>
+  </qresource>
+</RCC>
+

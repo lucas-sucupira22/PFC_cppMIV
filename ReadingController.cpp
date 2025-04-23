@@ -1,0 +1,200 @@
+#include "ReadingController.h"
+#include <QDebug>
+
+ReadingController::ReadingController(QObject *parent)
+    : QObject{parent}
+{
+    m_vehicleSignals = {
+        "Seconds",
+        "Year",
+        "ap_lowidle_sw",
+        "ControlSolenoidStatus",
+        "ClutchSwitch",
+        "curr_gear",
+        "Current_Terrain_Mode",
+        "alternator_fault",
+        "CruiseControlActive",
+        "Current_Pressure_Front_Axle",
+        "f_abs_active",
+        "TotalDistance",
+        "AuxiliaryEquipmentSupplyReq",
+        "Diff_Lock_Sts_Front_Axle_BC",
+        "f_abs_fully_op",
+        "RoadSpeedLimitStatus",
+        "ATC_ABS_lamp_state",
+        "TireLocation",
+        "ap_kickdown_sw",
+        "Ignition_Switch_Sts",
+        "over_ctrl_mod_prio_ae",
+        "Third_right_axle_speed",
+        "torque_conv_lockup_eng",
+        "Hours",
+        "Main_Power_Switch_Sts",
+        "Third_left_axle_speed",
+        "battery_voltage",
+        "PartialDistance",
+        "Second_right_axle_speed",
+        "HR_RearLeftWheelSpeed",
+        "f_shift_process",
+        "inp_shaft_speed",
+        "LoRange",
+        "Day",
+        "intake_manf_press",
+        "over_ctrl_mode_ae",
+        "req_speed_ctrl_cond_ae",
+        "eng_torque_mode",
+        "TirePressure",
+        "Ambient_Air_Temperature",
+        "Current_Pressure_Rear_Axle",
+        "diff_overspeed",
+        "Fuel_Level",
+        "over_ctrl_mode_te",
+        "Selected_Pressure_Rear_Axle",
+        "CTITireStatus",
+        "drv_dem_perc_torque",
+        "Month",
+        "brake_AoH_failure",
+        "eng_oper_speed_asynad",
+        "f_abs_offroad_sw_BCM",
+        "front_brake_low_press",
+        "HR_FrontRightWheelSpeed",
+        "sel_gear",
+        "Transm_Oil_Temp",
+        "CTIWheelSolenoidStatus",
+        "Diff_Lock_Sts_Central_BC",
+        "CTISProcessMode",
+        "engine_speed",
+        "f_abs_offroad_sw_ABS",
+        "f_asr_offroad_sw",
+        "Selected_Pressure_Front_Axle",
+        "TirePressCheckInterval",
+        "eng_desir_op_speed",
+        "sa_ctr_device",
+        "TractionCtrlOverrideSwitch",
+        "HR_RearRightWheelSpeed",
+        "eng_cool_temp",
+        "eng_starter_mode",
+        "f_asr_hh_sw",
+        "req_torq_lim_te",
+        "Second_left_axle_speed",
+        "acc_ped_pos",
+        "Front_left_axle_speed",
+        "BCM_fault",
+        "HR_FrontLeftWheelSpeed",
+        "nom_fric_perc_torque",
+        "Selected_Pressure_Third_Axle",
+        "Selected_Terrain_Mode",
+        "act_perc_torque",
+        "TirePressThresholdDetect",
+        "eng_oil_low_press",
+        "CTIWheelValveMode",
+        "Diff_Lock_Sts_Rear_Axle_BC",
+        "eng_inst_fuel_eco",
+        "Front_right_axle_speed",
+        "light_dir_dx",
+        "BrakeSwitch",
+        "eng_throttle_position",
+        "eng_dem_perc_torque",
+        "CruiseControlSetSpeed",
+        "f_asr_eng_active",
+        "out_shaft_speed",
+        "BarometricPress",
+        "intake_manf_temp",
+        "Minutes",
+        "req_torq_lim_ae",
+        "WheelBasedVehicleSpeed",
+        "f_asr_brake_active",
+        "eng_fuel_rate",
+        "fording_req",
+        "Local_Hour_Offset",
+        "trans_curr_range",
+        "eng_average_fuel_economy",
+        "PneumaticSupplyPressureReq",
+        "trans_req_range",
+        "WheelSolenoidStatus",
+        "FA_Speed",
+        "HiRange",
+        "light_dir_sx",
+        "park_brake_sts",
+        "rear_brake_low_press",
+        "fuel_temp",
+        "f_absebs_amb_war_sts",
+        "Local_Minute_Offset",
+        "EngPercentLoadAtCurrentSpeed"
+};
+
+    applyFilter();
+}
+
+QStringList ReadingController::vehicleSignals() const
+{
+    return m_vehicleSignals;
+}
+
+// Getter que retorna o texto de filtro atual
+QString ReadingController::filterText() const {
+    return m_filterText;
+}
+
+QStringList ReadingController::filteredVehicleSignals() const
+{
+    return m_filteredVehicleSignals;
+}
+
+QStringList ReadingController::selectedVehicleSignals() const
+{
+    return m_selectedVehicleSignals;
+}
+
+void ReadingController::setselectedVehicleSignals(const QStringList &newSelectedVehicleSignals)
+{
+    if (m_selectedVehicleSignals == newSelectedVehicleSignals)
+        return;
+    m_selectedVehicleSignals = newSelectedVehicleSignals;
+    emit selectedVehicleSignalsChanged();
+}
+
+// Setter para o texto de filtro
+void ReadingController::setFilterText(const QString &text) {
+    // Verifica se o novo texto é diferente do atual
+    if (text != m_filterText) {
+        m_filterText = text;            // Atualiza o filtro
+        emit filterTextChanged();       // Emite sinal de mudança
+        applyFilter();                  // Reaplica o filtro com o novo texto
+    }
+}
+
+// Função privada para aplicar o filtro baseado em m_filterText
+void ReadingController::applyFilter() {
+    m_filteredVehicleSignals.clear();  // Limpa a lista filtrada
+    // Percorre todos os logs e adiciona os que contêm o texto do filtro
+    for (const QString &newSelectedVehicleSignals : m_vehicleSignals) {
+        if (newSelectedVehicleSignals.contains(m_filterText, Qt::CaseInsensitive)) {
+            m_filteredVehicleSignals.append(newSelectedVehicleSignals);
+        }
+    }
+    emit filteredVehicleSignalsChanged();  // Emite sinal informando que a lista filtrada mudou
+}
+
+void ReadingController::generateGraph()
+{
+    qDebug() << "generated graph!:" << m_selectedVehicleSignals;
+}
+
+void ReadingController::toggleVehicleSignalSelection(const QString &signalName)
+{
+    if (m_selectedVehicleSignals.contains(signalName)) {
+        m_selectedVehicleSignals.removeAll(signalName);
+    } else {
+        m_selectedVehicleSignals.append(signalName);
+    }
+    emit selectedVehicleSignalsChanged();
+}
+
+void ReadingController::clearSelectedSignals()
+{
+    m_selectedVehicleSignals.clear();
+    emit selectedVehicleSignalsChanged();
+}
+
+

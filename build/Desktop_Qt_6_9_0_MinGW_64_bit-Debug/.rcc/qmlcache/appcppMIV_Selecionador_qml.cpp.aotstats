@@ -1,0 +1,20 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 33,
+                        "durationMicroseconds": 843,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "selectedItems",
+                        "line": 4
+                    }
+                ],
+                "filepath": "C:/Users/lucas/Documents/PFC/cppMIV/Selecionador.qml"
+            }
+        ],
+        "moduleId": "cppMIV(appcppMIV)"
+    }
+]

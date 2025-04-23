@@ -1,0 +1,52 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 10,
+                        "durationMicroseconds": 1359,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 6
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 353,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 176,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 16,
+                        "durationMicroseconds": 264,
+                        "errorMessage": "Cannot access value for name aoClicar",
+                        "functionName": "onClicked",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 19,
+                        "durationMicroseconds": 194,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 31
+                    }
+                ],
+                "filepath": "C:/Users/lucas/Documents/PFC/cppMIV/BotaoMudarPagina.qml"
+            }
+        ],
+        "moduleId": "cppMIV(appcppMIV)"
+    }
+]

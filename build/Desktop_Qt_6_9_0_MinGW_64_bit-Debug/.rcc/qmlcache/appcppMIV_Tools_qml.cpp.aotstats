@@ -1,0 +1,36 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 635,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 18,
+                        "durationMicroseconds": 1740,
+                        "errorMessage": "Cannot access value for name aoCliclar",
+                        "functionName": "onClicked",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 203,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 22
+                    }
+                ],
+                "filepath": "C:/Users/lucas/Documents/PFC/cppMIV/Tools.qml"
+            }
+        ],
+        "moduleId": "cppMIV(appcppMIV)"
+    }
+]

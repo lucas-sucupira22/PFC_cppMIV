@@ -1,0 +1,28 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 684,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 5
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 165,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 9
+                    }
+                ],
+                "filepath": "C:/Users/lucas/Documents/PFC/cppMIV/HomePage.qml"
+            }
+        ],
+        "moduleId": "cppMIV(appcppMIV)"
+    }
+]

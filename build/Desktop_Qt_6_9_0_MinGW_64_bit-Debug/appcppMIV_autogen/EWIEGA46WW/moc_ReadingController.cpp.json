@@ -1,0 +1,130 @@
+{
+    "classes": [
+        {
+            "className": "ReadingController",
+            "lineNumber": 7,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "selectedVehicleSignals",
+                    "notify": "selectedVehicleSignalsChanged",
+                    "read": "selectedVehicleSignals",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QStringList",
+                    "user": false,
+                    "write": "setselectedVehicleSignals"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "vehicleSignals",
+                    "notify": "vehicleSignalsChanged",
+                    "read": "vehicleSignals",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QStringList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "filteredVehicleSignals",
+                    "notify": "filteredVehicleSignalsChanged",
+                    "read": "filteredVehicleSignals",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QStringList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "filterText",
+                    "notify": "filterTextChanged",
+                    "read": "filterText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setFilterText"
+                }
+            ],
+            "qualifiedClassName": "ReadingController",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "vehicleSignalsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "filteredVehicleSignalsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "filterTextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "selectedVehicleSignalsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "generateGraph",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "signalName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "toggleVehicleSignalSelection",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "clearSelectedSignals",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ReadingController.h",
+    "outputRevision": 69
+}

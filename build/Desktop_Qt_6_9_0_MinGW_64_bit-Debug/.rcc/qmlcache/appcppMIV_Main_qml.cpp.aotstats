@@ -1,0 +1,260 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 12,
+                        "durationMicroseconds": 974,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 13,
+                        "durationMicroseconds": 255,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 12,
+                        "durationMicroseconds": 353,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 13,
+                        "durationMicroseconds": 267,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 15,
+                        "durationMicroseconds": 238,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 193,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 2032,
+                        "errorMessage": "Cannot generate efficient code for script lookup",
+                        "functionName": "aoClicar",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 149,
+                        "errorMessage": "Cannot generate efficient code for LoadClosure",
+                        "functionName": "aoClicar",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 202,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 706,
+                        "errorMessage": "Cannot generate efficient code for script lookup",
+                        "functionName": "aoClicar",
+                        "line": 46
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 128,
+                        "errorMessage": "Cannot generate efficient code for LoadClosure",
+                        "functionName": "aoClicar",
+                        "line": 46
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 216,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 668,
+                        "errorMessage": "Cannot generate efficient code for script lookup",
+                        "functionName": "aoClicar",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 131,
+                        "errorMessage": "Cannot generate efficient code for LoadClosure",
+                        "functionName": "aoClicar",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 183,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 746,
+                        "errorMessage": "Cannot generate efficient code for script lookup",
+                        "functionName": "aoClicar",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 166,
+                        "errorMessage": "Cannot generate efficient code for LoadClosure",
+                        "functionName": "aoClicar",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 602,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 65
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 957,
+                        "errorMessage": "Cannot generate efficient code for script lookup",
+                        "functionName": "aoClicar",
+                        "line": 76
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 184,
+                        "errorMessage": "Cannot generate efficient code for LoadClosure",
+                        "functionName": "aoClicar",
+                        "line": 76
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 235,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 75
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 667,
+                        "errorMessage": "Cannot generate efficient code for script lookup",
+                        "functionName": "aoClicar",
+                        "line": 86
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 134,
+                        "errorMessage": "Cannot generate efficient code for LoadClosure",
+                        "functionName": "aoClicar",
+                        "line": 86
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 284,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 85
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 12,
+                        "durationMicroseconds": 532,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 97
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 13,
+                        "durationMicroseconds": 165,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 98
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 12,
+                        "durationMicroseconds": 253,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 102
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 14,
+                        "durationMicroseconds": 226,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 103
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 15,
+                        "durationMicroseconds": 364,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 104
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 147,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 109
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 26,
+                        "durationMicroseconds": 364,
+                        "errorMessage": "Cannot generate efficient code for LoadClosure",
+                        "functionName": "onCompleted",
+                        "line": 114
+                    }
+                ],
+                "filepath": "C:/Users/lucas/Documents/PFC/cppMIV/Main.qml"
+            }
+        ],
+        "moduleId": "cppMIV(appcppMIV)"
+    }
+]

@@ -1,0 +1,4 @@
+C:/Users/lucas/Documents/PFC/cppMIV/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/appcppMIV_autogen/include/../EWIEGA46WW/moc_CommandController.cpp.json
+C:/Users/lucas/Documents/PFC/cppMIV/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/appcppMIV_autogen/include/../EWIEGA46WW/moc_DownloadController.cpp.json
+C:/Users/lucas/Documents/PFC/cppMIV/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/appcppMIV_autogen/include/../EWIEGA46WW/moc_GeneralToolsController.cpp.json
+C:/Users/lucas/Documents/PFC/cppMIV/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/appcppMIV_autogen/include/../EWIEGA46WW/moc_ReadingController.cpp.json

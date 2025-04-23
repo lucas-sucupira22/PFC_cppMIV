@@ -1,0 +1,13 @@
+--resource
+C:/Users/lucas/Documents/PFC/cppMIV/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/qmake_cppMIV.qrc
+--resource
+C:/Users/lucas/Documents/PFC/cppMIV/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/appcppMIV_raw_qml_0.qrc
+/qt/qml/cppMIV/Main.qml
+/qt/qml/cppMIV/BotaoMudarPagina.qml
+/qt/qml/cppMIV/HomePage.qml
+/qt/qml/cppMIV/ReportPage.qml
+/qt/qml/cppMIV/ReadingPage.qml
+/qt/qml/cppMIV/DownloadPage.qml
+/qt/qml/cppMIV/CommandPage.qml
+/qt/qml/cppMIV/AnalysisPage.qml
+/qt/qml/cppMIV/functions.js

@@ -1,0 +1,12 @@
+module cppMIV
+typeinfo appcppMIV.qmltypes
+prefer :/qt/qml/cppMIV/
+Main 1.0 Main.qml
+BotaoMudarPagina 1.0 BotaoMudarPagina.qml
+HomePage 1.0 HomePage.qml
+ReportPage 1.0 ReportPage.qml
+ReadingPage 1.0 ReadingPage.qml
+DownloadPage 1.0 DownloadPage.qml
+CommandPage 1.0 CommandPage.qml
+AnalysisPage 1.0 AnalysisPage.qml
+

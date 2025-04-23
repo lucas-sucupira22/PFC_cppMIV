@@ -1,0 +1,10 @@
+-I
+C:/Users/lucas/Documents/PFC/cppMIV/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug
+-I
+C:/Qt/6.9.0/mingw_64/qml
+--resource
+C:/Users/lucas/Documents/PFC/cppMIV/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/qmake_cppMIV.qrc
+--resource
+C:/Users/lucas/Documents/PFC/cppMIV/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/appcppMIV_raw_qml_0.qrc
+--module
+cppMIV

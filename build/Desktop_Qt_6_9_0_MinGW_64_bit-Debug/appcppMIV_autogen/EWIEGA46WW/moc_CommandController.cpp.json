@@ -1,0 +1,69 @@
+{
+    "classes": [
+        {
+            "className": "CommandController",
+            "lineNumber": 6,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "commandText",
+                    "notify": "commandTextChanged",
+                    "read": "commandText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setCommandText"
+                }
+            ],
+            "qualifiedClassName": "CommandController",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "commandTextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "commandType",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "commandSent",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "sendGetCommand",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "sendPushCommand",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "CommandController.h",
+    "outputRevision": 69
+}

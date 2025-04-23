@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/lucas/Documents/PFC/cppMIV
+-cmake-output
+-output-file
+C:/Users/lucas/Documents/PFC/cppMIV/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/qml_imports/appcppMIV_build.cmake
+-importPath
+C:/Users/lucas/Documents/PFC/cppMIV/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/cppMIV
+-importPath
+C:/Users/lucas/Documents/PFC/cppMIV/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.9.0/mingw_64/qml
+-qrcFiles
+C:/Users/lucas/Documents/PFC/cppMIV/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/qmake_cppMIV.qrc
+C:/Users/lucas/Documents/PFC/cppMIV/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/appcppMIV_raw_qml_0.qrc
